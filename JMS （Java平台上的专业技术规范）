@@ -1,0 +1,8 @@
+JMS即Java消息服务（Java Message Service）应用程序接口，是一个Java平台中关于面向消息中间件（MOM）的API，用于在两个应用程序之间，
+       或分布式系统中发送消息，进行异步通信。
+Java消息服务是一个与具体平台无关的API，绝大多数MOM提供商都对JMS提供支持。
+
+消息是 JMS 中的一种类型对象，由两部分组成：报头和消息主体。报头由路由信息以及有关该消息的元数据组成。
+消息主体则携带着应用程序的数据或有效负载。根据有效负载的类型来划分，可以将消息分为几种类型，
+它们分别携带：简单文本(TextMessage)、可序列化的对象 (ObjectMessage)、属性集合 (MapMessage)、字节流 (BytesMessage)、原始值流 (StreamMessage)，
+还有无有效负载的消息 (Message)。
